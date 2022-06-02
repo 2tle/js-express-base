@@ -1,0 +1,37 @@
+{
+  "name": "js-express-base",
+  "version": "0.0.1",
+  "description": "expressjs template",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node ./src/index.js"
+  },
+  "author": "2tle",
+  "license": "ISC",
+  "dependencies": {
+    "@decorators/di": "^1.0.3",
+    "@decorators/express": "^2.6.0",
+    "body-parser": "^1.20.0",
+    "compression": "^1.7.4",
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "cross-env": "^7.0.3",
+    "crypto": "^1.0.1",
+    "data-utils": "0.0.2",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "express-timeout-handler": "^2.2.2",
+    "helmet": "^5.1.0",
+    "http-auth": "^4.1.9",
+    "http-status-codes": "^2.2.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.3.5",
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.16",
+    "path": "^0.12.7",
+    "pm2": "^5.2.0",
+    "url": "^0.11.0",
+    "validator": "^13.7.0"
+  }
+}
